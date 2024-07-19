@@ -7,7 +7,7 @@ This C++ program, `xor.cpp`, computes the XOR of two SHA256 hashes provided in s
 1. **Compilation:**
    - Compile the program using a C++ compiler:
      ```bash
-     g++ xor.cpp -o xor -lcrypto
+     g++ xor.cpp -o xor
      ```
    - Ensure you have OpenSSL installed (`libcrypto-dev` package on Linux) for SHA256 hashing.
 
